@@ -18,10 +18,11 @@ body {
     width: 100%;
 }
 #nav {
-    padding: 10px;
     background-color: #393E46;
-    margin: 100px 15px 15px 15px;
-    border-radius: 15px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 #nav ul {
     display: flex;
@@ -37,21 +38,25 @@ body {
     width: 100%;
 }
 #nav a {
-    margin: 10px;
+    margin: 15px 20px 15px;
+    padding: 15px;
     text-decoration: none;
     text-align: center;
     color: white;
     display: block;
-    padding: 15px;
     background-color: slategrey;
     border-radius: 20px;
+    font-size: 25px;
 }
 #nav a:hover {
     background-color: black;
     color: white;
 }
+#home {
+    font-size: 30px;
+}
 #status {
-    margin: 15px;
+    margin: 110px 15px 15px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
